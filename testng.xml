@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" verbose="1" name="Suite" parallel="methods">
+	<test  name="Test" group-by-instances="false">
+	<!-- if value is true it will run only without priority methods -->
+	<!-- if value is false it will run all methods -->
+    	<classes>
+    	<class name="com.PriorityEx.PriorityTest1"/>
+    		<class name="com.PriorityEx.PriorityTest"/>
+      		
+    	</classes>
+	</test>
+</suite> 

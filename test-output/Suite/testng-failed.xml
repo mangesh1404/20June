@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="2" parallel="tests" name="Test(failed)">
+    <groups>
+      <run>
+        <include name="loginmodule"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.mangesh.LoginTestCases">
+        <methods>
+          <include name="Tesstcase2"/>
+        </methods>
+      </class> <!-- com.mangesh.LoginTestCases -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
